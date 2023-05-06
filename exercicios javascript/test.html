@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário de Cadastro</title>
+    <script>
+      function validarFormulario() {
+        var ra = document.getElementById("ra").value;
+        var nome = document.getElementById("nome").value;
+        var idade = document.getElementById("idade").value;
+        var email = document.getElementById("email").value;
+
+        // Validar campo RA
+        if (ra === "") {
+          alert("Campo RA é obrigatório.");
+          return false;
+        }
+        if (!/^\d+$/.test(ra)) {
+          alert("Campo RA só pode conter números.");
+          return false;
+        }
+
+        // Validar campo NOME
+        if (nome === "") {
+          alert("Campo NOME é obrigatório.");
+          return false;
+        }
+        if (nome.length > 40) {
+          alert("Campo NOME pode ter no máximo 40 letras.");
+          return false;
+        }
+
+        // Validar campo IDADE
+        if (idade === "") {
+          alert("Campo IDADE é obrigatório.");
+          return false;
+        }
+        if (idade.length !== 3 || !/^\d+$/.test(idade)) {
+          alert("Campo IDADE deve ter 3 dígitos.");
+          return false;
+        }
+
+        // Validar campo EMAIL
+        if (email === "") {
+          alert("Campo EMAIL é obrigatório.");
+          return false;
+        }
+        if (!email.includes("@") || email.indexOf(".") === -1) {
+          alert("Campo EMAIL precisa ter um @ e dois pontos (.)");
+          return false;
+        }
+
+        // Formulário válido, pode ser enviado
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+
+    <form onsubmit="return validarFormulario()">
+      <label for="ra">RA:</label>
+      <input type="text" id="ra" name="ra" /><br /><br />
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" maxlength="40" /><br /><br />
+
+      <label for="idade">Idade:</label>
+      <input type="text" id="idade" name="idade" maxlength="3" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
