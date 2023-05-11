@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptografia</title>
+  </head>
+  <body>
+    <form name="frmCriptografia" id="frmCriptografia" action="" method="">
+      <div id="posicaoForm">
+        <table
+          id="tabela"
+          width="300"
+          border="0"
+          cellspacing="1"
+          cellppading="1"
+        >
+          <caption align="top" class="cabecalho">
+            <br />CRIPTOGRAFIA<br />
+          </caption>
+          <tr>
+            <th colspan="10">
+              <input
+                type="text"
+                class="visor"
+                id="visor"
+                name="txt_Visor"
+                size="60"
+              />
+            </th>
+          </tr>
+          <tr>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="Q"
+                onclick="clicouLetra('Q')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="W"
+                onclick="clicouLetra('W')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="E"
+                onclick="clicouLetra('E')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="R"
+                onclick="clicouLetra('R')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="T"
+                onclick="clicouLetra('T')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="Y"
+                onclick="clicouLetra('Y')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="U"
+                onclick="clicouLetra('U')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="I"
+                onclick="clicouLetra('I')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="O"
+                onclick="clicouLetra('O')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="P"
+                onclick="clicouLetra('P')"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="A"
+                onclick="clicouLetra('A')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="S"
+                onclick="clicouLetra('S')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="D"
+                onclick="clicouLetra('D')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="F"
+                onclick="clicouLetra('F')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="G"
+                onclick="clicouLetra('G')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="H"
+                onclick="clicouLetra('H')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="J"
+                onclick="clicouLetra('J')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="K"
+                onclick="clicouLetra('K')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="L"
+                onclick="clicouLetra('L')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="Ç"
+                onclick="clicouLetra('Ç')"
+              />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="Z"
+                onclick="clicouLetra('Z')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="igual"
+                value="X"
+                onclick="clicouLetra('X')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="C"
+                onclick="clicouLetra('C')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="V"
+                onclick="clicouLetra('V')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="B"
+                onclick="clicouLetra('B')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="N"
+                onclick="clicouLetra('N')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="M"
+                onclick="clicouLetra('N')"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="ce"
+                value="CE"
+                onclick="clicouCE()"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="CR 1"
+                onclick="criptografia(1)"
+              />
+            </td>
+            <td align="CENTER">
+              <input
+                type="button"
+                class="botao"
+                name="botao"
+                value="CR 2"
+                onclick="criptografia(2)"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

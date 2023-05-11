@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplicação de Criptografia</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aplicação de Criptografia</h1>
+      <input type="text" id="inputText" placeholder="Digite a frase" />
+      <div id="keyboard">
+        <!-- Botões do teclado -->
+        <button onclick="addChar('Q')">Q</button>
+        <button onclick="addChar('W')">W</button>
+        <button onclick="addChar('E')">E</button>
+        <!-- Restante dos botões do teclado -->
+      </div>
+      <div>
+        <button onclick="encrypt(1)">CR 1</button>
+        <button onclick="encrypt(2)">CR 2</button>
+      </div>
+      <h3>Frase Criptografada:</h3>
+      <input type="text" id="output" readonly />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
