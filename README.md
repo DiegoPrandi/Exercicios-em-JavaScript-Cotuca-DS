@@ -9,10 +9,11 @@
 <p>3. Faça um programa que receba dois números inteiros, calcule e exiba: - soma dos dois números; - subtração do primeiro pelo segundo; - subtração do segundo pelo primeiro; - produto dos dois números; - divisão do primeiro pelo segundo; - quociente inteiro da divisão do primeiro pelo segundo; - resto da divisão do primeiro pelo segundo.</p>
 
 <p>4. Montar um formulário com os campos RA, NOME, IDADE e EMAIL com o botão ENVIAR. Os campos devem ser validados:
-a) nenhum campo pode ficar sem preenchimento.
-b) campo RA só pode aceitar números
-c) campo NOME pode ter no máximo 40 letras
-d) campo IDADE só pode ter 3 dígitos
+<br>
+a) nenhum campo pode ficar sem preenchimento.<br>
+b) campo RA só pode aceitar números<br>
+c) campo NOME pode ter no máximo 40 letras<br>
+d) campo IDADE só pode ter 3 dígitos<br>
 e) campo EMAIL precisa ter @ e dois (.) pontos</p>
 
 <p>5. Criar uma página de um jogo para acertar um número. A página deverá solicitar que o usuário entre com um número e em 3 tentativas, o script deverá verificar se o usuário acertou o número escolhido. O script deverá gerar um número aleatório entre 1 e 9.</p>
