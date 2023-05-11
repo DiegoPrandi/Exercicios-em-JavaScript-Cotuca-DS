@@ -1,7 +1,6 @@
 <h1>1º Lista de exercícios de JavaScript Cotuca</h1>
 <br>
-<h2>Exercícios</h2>
-
+<p>Exercícios</p>
 <p>1. Faça uma página que peça o nome e idade do usuário e verifique se ele é maior de idade. Exiba o resultado da validação usando o alert e o document.write.</p>
 
 <p>2. Faça um programa que leia dois números, calcule e exiba a soma desses dois números.</p>
